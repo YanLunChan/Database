@@ -1,0 +1,8 @@
+D:\Program Files (x86)\BackEnd Portfolio\Sorting Algorithms\Sorting Algorithms\bin\Debug\Sorting Algorithms.exe.config
+D:\Program Files (x86)\BackEnd Portfolio\Sorting Algorithms\Sorting Algorithms\bin\Debug\Sorting Algorithms.exe
+D:\Program Files (x86)\BackEnd Portfolio\Sorting Algorithms\Sorting Algorithms\bin\Debug\Sorting Algorithms.pdb
+D:\Program Files (x86)\BackEnd Portfolio\Sorting Algorithms\Sorting Algorithms\obj\Debug\Sorting Algorithms.csproj.AssemblyReference.cache
+D:\Program Files (x86)\BackEnd Portfolio\Sorting Algorithms\Sorting Algorithms\obj\Debug\Sorting Algorithms.csproj.SuggestedBindingRedirects.cache
+D:\Program Files (x86)\BackEnd Portfolio\Sorting Algorithms\Sorting Algorithms\obj\Debug\Sorting Algorithms.csproj.CoreCompileInputs.cache
+D:\Program Files (x86)\BackEnd Portfolio\Sorting Algorithms\Sorting Algorithms\obj\Debug\Sorting Algorithms.exe
+D:\Program Files (x86)\BackEnd Portfolio\Sorting Algorithms\Sorting Algorithms\obj\Debug\Sorting Algorithms.pdb

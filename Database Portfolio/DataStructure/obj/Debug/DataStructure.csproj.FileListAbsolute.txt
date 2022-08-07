@@ -1,0 +1,8 @@
+D:\Program Files (x86)\BackEnd Portfolio\Sorting Algorithms\DataStructure\obj\Debug\DataStructure.csproj.AssemblyReference.cache
+D:\Program Files (x86)\BackEnd Portfolio\Sorting Algorithms\DataStructure\obj\Debug\DataStructure.csproj.SuggestedBindingRedirects.cache
+D:\Program Files (x86)\BackEnd Portfolio\Sorting Algorithms\DataStructure\obj\Debug\DataStructure.csproj.CoreCompileInputs.cache
+D:\Program Files (x86)\BackEnd Portfolio\Sorting Algorithms\DataStructure\obj\Debug\Sorting Algorithms.exe
+D:\Program Files (x86)\BackEnd Portfolio\Sorting Algorithms\DataStructure\obj\Debug\Sorting Algorithms.pdb
+D:\Program Files (x86)\BackEnd Portfolio\Sorting Algorithms\DataStructure\bin\Debug\Sorting Algorithms.exe.config
+D:\Program Files (x86)\BackEnd Portfolio\Sorting Algorithms\DataStructure\bin\Debug\Sorting Algorithms.exe
+D:\Program Files (x86)\BackEnd Portfolio\Sorting Algorithms\DataStructure\bin\Debug\Sorting Algorithms.pdb
