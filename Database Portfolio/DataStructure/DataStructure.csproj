@@ -44,10 +44,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Sorting Algorithms\Bubble_Sort.cs" />
+    <Compile Include="Sorting Algorithms\Heap_Sort.cs" />
     <Compile Include="Sorting Algorithms\Insertion_Sort.cs" />
     <Compile Include="Linked List\LinkedList.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sorting Algorithms\Merge_Sort.cs" />
+    <Compile Include="Sorting Algorithms\Quick_Sort.cs" />
     <Compile Include="Sorting Algorithms\Selection_Sort.cs" />
   </ItemGroup>
   <ItemGroup>

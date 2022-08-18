@@ -32,12 +32,11 @@ namespace DataStructure
             string input = "";
             bool validInput = false;
             //Generate Array
-            const int size = 5;
+            const int size = 10;
             const int MAX_INT = 500;
             int[] array = new int[size];
-            Random RanGen = new Random();
             for (int i = 0; i < array.Length; i++)
-                array[i] = RanGen.Next(-1 * MAX_INT, MAX_INT);
+                array[i] = RandomGeneration.GetInstance.Next(-1 * MAX_INT, MAX_INT);
 
             Console.WriteLine("Select the Following:\n" +
                               "1. Bubble Sort\n" +
@@ -54,6 +53,8 @@ namespace DataStructure
                 if (validInput && selection > 0 && selection < 7)
                 {
                     PrintArray(array, "Before Sorting");
+                    //cache time
+                    long time = DateTime.Now.Ticks;
                     switch (selection)
                     {
                         case 1:
@@ -68,20 +69,26 @@ namespace DataStructure
                             Selection_Sort.InsertionSort(array);
                             break;
                         case 4:
-
+                            Merge_Sort.MergeSort(array, 0, array.Length - 1);
                             break;
                         case 5:
-
+                            Quick_Sort.QuickSortRandomized(array, 0, array.Length - 1);
                             break;
                         case 6:
-
+                            Heap_Sort.HeapSort(array);
                             break;
                     }
                     PrintArray(array, "After Sorting");
+                    time = DateTime.Now.Ticks - time;
+                    //convert tick to total seconds
+                    Console.WriteLine("----------SORTING----------");
+                    Console.WriteLine($"Time it took to sort: {TimeSpan.FromTicks(time).TotalSeconds} Seconds");
+                    Console.WriteLine("----------SORTING----------");
                 }
                 else
                     Console.WriteLine("Please enter correct input");
             } while (!validInput);
+            Console.WriteLine("\nPress any key to exit...");
             Console.ReadLine();
         }
         public static void PrintArray<T>(T[] array, string title) 

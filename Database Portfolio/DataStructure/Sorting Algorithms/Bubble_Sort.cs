@@ -30,8 +30,7 @@ namespace Sorting_Algorithms
         /// <param name="array">parameter to be sorted</param>
         public static void BubbleSort<T>(T[] array) where T : IComparable
         {
-            //cache time
-            long time = DateTime.Now.Ticks;
+
             for (int i = 0; i < array.Length - 1; i++)
                 for (int j = 0; j < array.Length - i - 1; j++)
                 {
@@ -42,11 +41,7 @@ namespace Sorting_Algorithms
                         array[j+1] = temp;
                     }
                 }
-            time = DateTime.Now.Ticks - time;
-            //convert tick to total seconds
-            Console.WriteLine("----------SORTING----------");
-            Console.WriteLine($"Time it took to sort: {TimeSpan.FromTicks(time).TotalSeconds} Seconds");
-            Console.WriteLine("----------SORTING----------");
+
         }
     }
 }

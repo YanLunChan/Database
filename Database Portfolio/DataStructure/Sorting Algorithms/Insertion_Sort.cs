@@ -35,8 +35,6 @@ namespace Sorting_Algorithms
         /// <param name="array">parameter to be sorted</param>
         public static void InsertionSort<T>(T[] array) where T : IComparable
         {
-            //cache time
-            long time = DateTime.Now.Ticks;
             for (int i = 1; i < array.Length; i++)
             {
                 //cache selection to compare to j
@@ -50,12 +48,6 @@ namespace Sorting_Algorithms
                 //if array[j] is smaller than selected then place it at j+1
                 array[j + 1] = selected;
             }
-
-            time = DateTime.Now.Ticks - time;
-            //convert tick to total seconds
-            Console.WriteLine("----------SORTING----------");
-            Console.WriteLine($"Time it took to sort: {TimeSpan.FromTicks(time).TotalSeconds} Seconds");
-            Console.WriteLine("----------SORTING----------");
         }
     }
 }
