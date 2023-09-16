@@ -44,6 +44,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />
+    <Compile Include="Shortest Path\Graph\Dijkstra.cs" />
+    <Compile Include="Shortest Path\Graph\Edge.cs" />
+    <Compile Include="Shortest Path\Graph\Graph.cs" />
+    <Compile Include="Shortest Path\Graph\Interfaces.cs" />
+    <Compile Include="Shortest Path\Graph\InvalidVertexException.cs" />
+    <Compile Include="Shortest Path\Graph\Vertex.cs" />
     <Compile Include="Sorting Algorithms\Bubble_Sort.cs" />
     <Compile Include="Sorting Algorithms\Heap_Sort.cs" />
     <Compile Include="Sorting Algorithms\Insertion_Sort.cs" />
